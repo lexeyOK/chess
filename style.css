@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: Roboto;
+  color: #212121;
+}
+
+.layout {
+  min-width: 100%;
+}
+
+.homepage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 2em);
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+}
+
+.logo {
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 3px;
+  font-size: 1.7rem;
+}
+
+.pawn {
+  height: 0.9em;
+  width: 0.9em;
+}
+
+.info-text {
+  font-weight: 350;
+  color: #0a0a0a;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.input {
+  width: 100%;
+  display: flex;
+  position: relative;
+  align-items: baseline;
+  justify-content: center;
+}
+
+input-container {
+}
+
+.input-text {
+  display: inline-block;
+  width: 100%;
+  position: relative;
+  font-size: 1rem;
+  padding: 0.5em;
+  font-family: "Source Code Pro", "SFMono-Regular", Consolas, "Liberation Mono",
+    Menlo, Courier, monospace;
+  font-weight: 300;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: space-evenly;
+}
+
+.button {
+  margin: 10px;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: #f2f2f2;
+  background-color: #222222;
+  width: 100vw;
+  display: block;
+  overflow: hidden;
+  padding: 0.5em 1em;
+  box-sizing: border-box;
+}
