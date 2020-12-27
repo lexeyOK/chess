@@ -52,10 +52,7 @@ body {
 
 .input {
   width: 100%;
-  display: flex;
   position: relative;
-  align-items: baseline;
-  justify-content: center;
 }
 
 input-container {
@@ -78,7 +75,6 @@ input-container {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: space-evenly;
 }
 
 .button {
